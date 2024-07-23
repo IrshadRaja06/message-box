@@ -1,5 +1,5 @@
 
-let ques = [
+let questions = [
    "what is your name",
    "how are you",
    "are you a programmer",
@@ -13,12 +13,10 @@ let ques = [
 function accepted(){
    let ques = document.getElementById("ques").value;
    ques = ques.toLowerCase();
-   if(ques.includes(ques)) {
+   if(questions.includes(ques))
     window.alert("Your question accepted");
-   }
-   else {
+   else
     window.alert("Your question is rejected");
-   }
 }
 
 function declined(){
