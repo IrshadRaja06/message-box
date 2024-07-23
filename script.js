@@ -1,5 +1,5 @@
 
-let questions = [
+let ques = [
    "what is your name",
    "how are you",
    "are you a programmer",
